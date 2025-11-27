@@ -4,7 +4,7 @@ using ProductService.Models;
 namespace ProductService.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ProductsController : ControllerBase
 {
     private static readonly List<Product> Products = new()

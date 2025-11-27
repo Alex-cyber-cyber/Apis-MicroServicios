@@ -4,7 +4,7 @@ using CustomerService.Models;
 namespace CustomerService.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class CustomersController : ControllerBase
 {
     private static readonly List<Customer> Customers = new()

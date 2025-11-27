@@ -4,7 +4,7 @@ using OrderService.Models;
 namespace OrderService.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class OrdersController : ControllerBase
 {
     private static readonly List<Order> Orders = new()
